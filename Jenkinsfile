@@ -6,6 +6,11 @@ pipeline {
         sh 'echo "this is a step"'
       }
     }
+    stage('UAT') {
+      steps {
+        sh 'echo "yeah uat wala step hay!"'
+      }
+    }
 
   }
 }
